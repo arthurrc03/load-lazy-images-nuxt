@@ -18,5 +18,15 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+## Plugins use's
+
+```bash
+# framework ui
+$ Vuetify
+# http client
+$ Axios
+# CSS preprocessor
+$ Sass
+```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

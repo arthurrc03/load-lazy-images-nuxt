@@ -25,7 +25,7 @@ export default ({
   actions: {
     //Realizamos la llamada al endpoint que nos devuelve la lista de imágenes
     GET_IMAGES({commit}){
-      this.$axios.$get('htps://jsonplaceholder.typicode.com/photos').then(response => {
+      this.$axios.$get('https://jsonplaceholder.typicode.com/photos').then(response => {
         //Añadimos los datos a la propiedad images del estado del vuex store.
         commit('SET_IMAGES', response);
       })
