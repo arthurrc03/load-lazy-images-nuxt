@@ -16,7 +16,6 @@
               <v-btn
                 icon
                 @click="deleteImage(item.id)"
-                loading="true"
               >
                 <v-icon color="white" x-large>mdi-close</v-icon>
               </v-btn>
